@@ -11,7 +11,7 @@ Dynamic-NFT Description
 
 This project mints Dynamic NFTs that change based on the market price of an asset pair (for example, the BTC/USD asset price). When prices go up, its a bull trend and when the go down its a bear trend. We run Chainlink Keepers to have our smart contract automatically called at specified intervals so that on-chain logic checks the Chainlink Price Feed to see if there has been a change in price. Accordingly the minted NFTs dynamically alternate between the images below.
 
-<div style="display:flex column-gap:"2rem"">
+<div style="display:flex ">
  <img src = "https://user-images.githubusercontent.com/75687649/198516307-5a09b3f4-09cd-4dab-a75d-a9d775d93dc0.png" style="width:300px">
  <img src = "https://user-images.githubusercontent.com/75687649/198516370-1f87c4ee-b75f-4be9-b489-a51ec1d509f7.png" style="width:300px">
  <img src = "https://user-images.githubusercontent.com/75687649/198516417-99be191a-0aa6-4bcf-a130-d7b72852700b.png" style="width:300px">
